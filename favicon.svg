@@ -1,13 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
-  <circle cx="40" cy="40" r="28" stroke="#b0c0d0" stroke-width="2.5" fill="none"/>
-  <circle cx="40" cy="40" r="14" fill="url(#g)"/>
-  <ellipse cx="40" cy="40" rx="34" ry="12" stroke="#00d4ff" stroke-width="2" fill="none" transform="rotate(-25 40 40)"/>
-  <circle cx="62" cy="32" r="3.2" fill="#00d4ff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Outer silver ring -->
+  <circle cx="32" cy="32" r="24" stroke="#c8d0d8" stroke-width="2.2" fill="none"/>
+  <!-- Glowing blue core -->
+  <circle cx="32" cy="32" r="10" fill="url(#core)"/>
+  <!-- Thin orbiting arc -->
+  <path d="M48 20 A26 26 0 0 1 52 36" stroke="#00d4ff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <!-- Small endpoint -->
+  <circle cx="52" cy="36" r="2.2" fill="#00d4ff"/>
   <defs>
-    <radialGradient id="g" cx="0.5" cy="0.5" r="0.5">
+    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="35%" stop-color="#00e5ff"/>
-      <stop offset="100%" stop-color="#0088cc"/>
+      <stop offset="30%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#0099cc"/>
     </radialGradient>
   </defs>
 </svg>
